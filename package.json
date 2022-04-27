@@ -1,0 +1,25 @@
+{
+  "name": "project-round-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@picocss/pico": "1.3.3",
+    "canvas-confetti": "1.5.1",
+    "parcel-bundler": "^1.6.1",
+    "vanilla-tilt": "1.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [],
+  "browserslist": ["since 2017-06"]
+}

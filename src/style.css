@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  max-width: 480px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.pokemon {
+  text-align: center;
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+  margin-bottom: 1ex;
+  margin-top: 1ex;
+}
+
+.pokemon header {
+  margin-top: -1ex;
+  margin-bottom: 1ex;
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+}
+
+.pokemon__name {
+  margin: 0;
+  text-transform: uppercase;
+}
